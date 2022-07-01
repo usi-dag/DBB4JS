@@ -1,5 +1,8 @@
-# Stream-API-benchmark-BP
-Java Stream API Benchmark - bachelor project
+# JEDI
+## Java Evaluation of Declarative vs Imperative queries
 
+# Build:
+mvn package
 
-Benchmark classes have a main function to run. Main.main will start both.
+# Run:
+use provided run bash files
