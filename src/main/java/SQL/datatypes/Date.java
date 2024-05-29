@@ -48,6 +48,16 @@ public class Date implements Comparable<Date> {
         return LocalDate.ofEpochDay(days).getYear();
     }
 
+
+    public boolean equals(Date obj) {
+        return obj != null && this.days == obj.days;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        return o != null && o.getClass() == this.getClass() && this.days == ((Date) o).days;
+    }
+
     /**
      * This function is equivalent to curr >= min and curr < max
      *
