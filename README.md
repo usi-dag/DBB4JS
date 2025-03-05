@@ -1,5 +1,5 @@
-# JEDI
-## Java Evaluation of Declarative vs Imperative queries
+# DBB4JS
+## DataBase Benchmark for Java Streams
 
 # Build:
 mvn package
